@@ -20,6 +20,7 @@
   background-color: #fbfbfb;
   font-size: 18px;
   line-height: 1.2;
+  /* */
 }
 
 /* Para quitar los puntos a los items de listas */
@@ -71,7 +72,6 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 header nav div .logo {
@@ -117,23 +117,28 @@ nav a {
 
 #inicio img {
   max-width: 400px;
+  max-height: 400px;
   /* */
   width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 100px;
+  padding: 1.5rem;
 }
 
 h1 {
   font-size: 36px;
   /* */
   text-align: center;
-  font-size: 36px;
+  padding: 1rem;
 }
 
 .hola p {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
   text-align: center;
+  padding: 1.5rem;
 }
 
 /* Espaciado Párrafos: 20px arriba y debajo de cada párrafo */
